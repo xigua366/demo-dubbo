@@ -1,7 +1,17 @@
 spring:
   application:
-    name: demo-dubbo-consumer
+    name: demo-dubbo-exception-consumer
 
 
 server:
   port: 8001
+
+
+
+dubbo:
+  registry:
+    address: N/A
+  consumer:
+    check: false
+  application:
+    name: demo-dubbo-exception-consumer

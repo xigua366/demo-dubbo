@@ -1,4 +1,4 @@
-package com.yx.demo.dubbo.common.exception;
+package com.yx.demo.dubbo.exception.common.exception;
 
 import java.text.MessageFormat;
 

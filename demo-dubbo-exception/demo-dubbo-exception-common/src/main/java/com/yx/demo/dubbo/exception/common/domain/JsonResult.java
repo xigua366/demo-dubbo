@@ -1,4 +1,4 @@
-package com.yx.demo.dubbo.common.domain;
+package com.yx.demo.dubbo.exception.common.domain;
 
 import java.io.Serializable;
 

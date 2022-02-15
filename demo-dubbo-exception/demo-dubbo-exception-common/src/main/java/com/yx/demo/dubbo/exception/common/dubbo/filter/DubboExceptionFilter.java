@@ -1,7 +1,7 @@
-package com.yx.demo.dubbo.common.dubbo.filter;
+package com.yx.demo.dubbo.exception.common.dubbo.filter;
 
 
-import com.yx.demo.dubbo.common.exception.BizException;
+import com.yx.demo.dubbo.exception.common.exception.BizException;
 import org.apache.dubbo.common.constants.CommonConstants;
 import org.apache.dubbo.common.extension.Activate;
 import org.apache.dubbo.common.logger.Logger;

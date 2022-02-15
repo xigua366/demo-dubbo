@@ -1,9 +1,8 @@
-package com.yx.demo.dubbo.provider.api.impl;
+package com.yx.demo.dubbo.exception.provider.api.impl;
 
-import com.yx.demo.dubbo.common.domain.JsonResult;
-import com.yx.demo.dubbo.common.exception.BizException;
-import com.yx.demo.dubbo.provider.api.GreetingsApi;
-import com.yx.demo.dubbo.provider.exception.ProviderException;
+import com.yx.demo.dubbo.exception.common.domain.JsonResult;
+import com.yx.demo.dubbo.exception.common.exception.BizException;
+import com.yx.demo.dubbo.exception.provider.api.GreetingsApi;
 import org.apache.dubbo.config.annotation.DubboService;
 
 @DubboService(version = "1.0.0", interfaceClass = GreetingsApi.class)

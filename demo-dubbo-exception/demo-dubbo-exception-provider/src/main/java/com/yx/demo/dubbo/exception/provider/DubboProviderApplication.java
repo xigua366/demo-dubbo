@@ -1,4 +1,4 @@
-package com.yx.demo.dubbo.consumer;
+package com.yx.demo.dubbo.exception.provider;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -8,9 +8,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @version 1.0
  */
 @SpringBootApplication
-public class DubboConsumerApplication {
+public class DubboProviderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DubboConsumerApplication.class, args);
+        SpringApplication.run(DubboProviderApplication.class, args);
     }
+
 }

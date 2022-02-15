@@ -1,8 +1,7 @@
-package com.yx.demo.dubbo.consumer.remote;
+package com.yx.demo.dubbo.exception.consumer.remote;
 
-import com.yx.demo.dubbo.common.domain.JsonResult;
-import com.yx.demo.dubbo.consumer.exception.ConsumerBizException;
-import com.yx.demo.dubbo.provider.api.GreetingsApi;
+import com.yx.demo.dubbo.exception.common.domain.JsonResult;
+import com.yx.demo.dubbo.exception.provider.api.GreetingsApi;
 import org.apache.dubbo.config.annotation.DubboReference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +16,7 @@ public class DemoRemote {
 
     private final static Logger log = LoggerFactory.getLogger(DemoRemote.class);
 
-    @DubboReference(version = "1.0.0", url = "dubbo://127.0.0.1:28081", timeout = 120000)
+    @DubboReference(version = "1.0.0", url = "dubbo://127.0.0.1:28002", timeout = 120000)
     private GreetingsApi greetingsApi;
 
     public String sayHi(String name) {

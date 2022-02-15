@@ -1,7 +1,2 @@
-exception=com.yx.demo.dubbo.common.dubbo.filter.DubboExceptionFilter
-customerExceptionFilter=com.yx.demo.dubbo.common.dubbo.filter.CustomerExceptionFilter
-
-
-
-com.yx.demo.dubbo.common.dubbo.filter.CustomerExceptionFilter 是新增的自定义的异常过滤器，用来统一处理掉dubbo provider方抛出的异常，
-并吃掉异常，然后返回一个标准的JsonResult 对象给 customer方，只不过这个JsonResult对象的 success 字段是false。
+exception=com.yx.demo.dubbo.exception.common.dubbo.filter.DubboExceptionFilter
+customerExceptionFilter=com.yx.demo.dubbo.exception.common.dubbo.filter.CustomerExceptionFilter

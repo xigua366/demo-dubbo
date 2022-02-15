@@ -1,6 +1,6 @@
-package com.yx.demo.dubbo.provider.exception;
+package com.yx.demo.dubbo.exception.provider.exception;
 
-import com.yx.demo.dubbo.common.exception.BizException;
+import com.yx.demo.dubbo.exception.common.exception.BizException;
 
 /**
  * @author zhonghuashishan

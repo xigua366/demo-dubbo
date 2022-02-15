@@ -1,6 +1,6 @@
-package com.yx.demo.dubbo.consumer.controller;
+package com.yx.demo.dubbo.exception.consumer.controller;
 
-import com.yx.demo.dubbo.consumer.remote.DemoRemote;
+import com.yx.demo.dubbo.exception.consumer.remote.DemoRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,0 +1,20 @@
+#spring:
+#  application:
+#    name: demo-dubbo-provider
+
+dubbo:
+  scan:
+    base-packages: com.yx.demo.dubbo.provider.api.impl
+  protocol:
+    name: dubbo
+    port: 28081
+  registry:
+    address: N/A
+  application:
+    name: demo-dubbo-provider
+  provider:
+    filter: customerExceptionFilter
+
+
+server:
+  port: 8002

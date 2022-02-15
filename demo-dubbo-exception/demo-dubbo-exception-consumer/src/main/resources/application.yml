@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: demo-dubbo-consumer
+
+
+server:
+  port: 8001
